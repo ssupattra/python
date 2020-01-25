@@ -1,10 +1,10 @@
 import mysql.connector
 
 con = mysql.connector.connect(
-user = "", #need to inpurt later
-password = "",#need to inpurt later
-host = "",#need to inpurt later
-database = ""#need to inpurt later
+user = "", #need to input later
+password = "",#need to input later
+host = "",#need to input later
+database = ""#need to input later
 )
 
 cursor = con.cursor()
